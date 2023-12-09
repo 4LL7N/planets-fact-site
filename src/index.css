@@ -17,13 +17,25 @@
   background-color: #070724;
 }
 
+:root ::-webkit-scrollbar{
+  appearance: none;
+  width: 4px;
+  margin-right: 20px;
+}
+
+:root ::-webkit-scrollbar-thumb{
+  background-color: rgb(255, 255, 255,.4);
+  width: 2px;
+  height: 5px;
+  border-radius: 5px;
+}
+
 
 @media screen and (min-width:767px) {
   .details{
-      border: none;
-      border-bottom: 0!important;
+    border: none;
+    border-bottom: 0!important;
   }
-
 }
 
 

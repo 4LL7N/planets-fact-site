@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function Home(){
     const navigate = useNavigate()
     useEffect(() => {
-        navigate("/mercury")
+        navigate("mercury")
     },[])
     return(
         <h1>home</h1>
